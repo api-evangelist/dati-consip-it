@@ -1,0 +1,57 @@
+aid: dati-consip-it
+name: Consip Open Data
+description: >-
+  Consip Open Data is a government agency open-data portal for Italy running CKAN.
+  It exposes the CKAN catalog API over approximately 16 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/dati-consip-it/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Government Agency
+  - Italy
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: dati-consip-it:catalog
+    name: Consip Open Data CKAN Action API
+    description: >-
+      CKAN API for Consip Open Data, ~16 datasets.
+    humanURL: https://dati.consip.it
+    baseURL: https://dati.consip.it/api/3/action
+    tags:
+      - CKAN
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://dati.consip.it
+      - type: x-api-endpoint
+        url: https://dati.consip.it/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.9.5'
+common:
+  - type: Website
+    url: https://dati.consip.it
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/dati-consip-it-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/dati-consip-it-rate-limits.yml
+  - type: FinOps
+    url: finops/dati-consip-it-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

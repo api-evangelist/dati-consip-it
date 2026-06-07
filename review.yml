@@ -1,0 +1,11 @@
+name: Consip Open Data
+url: https://raw.githubusercontent.com/api-evangelist/dati-consip-it/refs/heads/main/review.yml
+created: '2026-06-07'
+modified: '2026-06-07'
+reviews:
+  - date: '2026-06-07'
+    rating: 4
+    summary: Live CKAN API verified (v2.9.5), ~16 datasets.
+    endpoints:
+      - url: https://dati.consip.it/api/3/action/status_show
+        status: 200
